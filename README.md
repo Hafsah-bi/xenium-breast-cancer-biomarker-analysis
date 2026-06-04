@@ -119,11 +119,7 @@ xenium_breast_cancer/
 ## 3. Input Data
 
 Download from the [10x Genomics dataset page](https://www.10xgenomics.com/datasets/xenium-ffpe-human-breast-biomarkers) — specifically the **S1-Top** section:
-
-```
-https://cf.10xgenomics.com/samples/xenium/4.0.0/Human_Breast_Biomarkers_S1_Top/
-Human_Breast_Biomarkers_S1_Top_xe_outs.zip
-```
+From General output files download Xenium Output Bundle (Xenium Explorer subset)
 
 | File | Size | Format | Contents |
 |------|------|--------|----------|
