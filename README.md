@@ -306,6 +306,8 @@ EEF1G, EEF2, MALAT1 should show tight low-CV violins; TFRC and GUSB should be wi
 
 **Output:** `fig1A_hk_cv_violin.png`
 
+![HK Gene CV Violin](Output/fig1A_hk_cv_violin.png)
+
 ---
 
 ### Section 10 — Figure 1B: DEG CV Violin Plot
