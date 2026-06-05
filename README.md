@@ -316,6 +316,8 @@ CV of 9 differentially expressed genes across tumor subtypes. High CV here is ex
 
 **Output:** `fig1B_deg_cv_violin.png`
 
+![DEG CV Violin](Output/fig1B_deg_cv_violin.png)
+
 ---
 
 ### Section 11 — Figure 1C: CV vs Mean Scatter (Tumor Cells)
@@ -324,6 +326,8 @@ Log-log scatter of CV vs. mean expression for all 542 genes in tumor cells. Dash
 
 **Output:** `fig1C_cv_scatter.png`
 
+![CV Scatter](Output/fig1C_cv_scatter.png)
+
 ---
 
 ### Section 12 — Figure 1E: LDHA Raw Expression
@@ -331,6 +335,8 @@ Log-log scatter of CV vs. mean expression for all 542 genes in tumor cells. Dash
 Raw LDHA transcript counts per tumor cell across subtypes (S2T → S3T → S1B → S2B). Jittered scatter with mean ± SEM and Mann-Whitney U significance brackets. Expected: progressive increase with grade (Warburg effect).
 
 **Output:** `fig1E_LDHA_raw.png`
+
+![LDHA Raw Expression](Output/fig1E_LDHA_raw.png)
 
 ---
 
@@ -343,6 +349,8 @@ Four-panel figure: LDHA normalized to EEF1G, RPLP0, GAPDH, and GUSB respectively
 
 **Output:** `fig1F_LDHA_normalized.png`
 
+![LDHA Normalized](Output/fig1F_LDHA_normalized.png)
+
 ---
 
 ### Section 14 — Figure 2C: Myoepithelial Marker Expression
@@ -350,6 +358,8 @@ Four-panel figure: LDHA normalized to EEF1G, RPLP0, GAPDH, and GUSB respectively
 Bar chart of KRT14, COL17A1, and LAMC2 mean expression in myoepithelial cells adjacent to normal vs. DCIS ducts. Sub-clusters myoepithelial cells and assigns the first half as "Normal", second half as "Tumor-associated" (approximate; single-section limitation). LAMC2 label shown in red — the key upregulated invasion-associated marker.
 
 **Output:** `fig2C_myoepithelial_markers.png`
+
+![Myoepithelial Markers](Output/fig2C_myoepithelial_markers.png)
 
 ---
 
@@ -376,7 +386,13 @@ Per ring:
   → Count HK transcripts (EEF1G, EEF2, MALAT1, RPLP0)
          ↓
 Fig 2F: raw_density    = MMP11_count / ring_area_µm²
+
+![MMP11 Raw Density](Output/fig2F_MMP11_raw_density.jpeg)
+
 Fig 2G: norm_density   = MMP11_count / geomean(HK_counts) / ring_area_µm²
+
+![MMP11 Normalized Density](Output/fig2G_MMP11_normalized_density.jpeg)
+
 ```
 
 **Pixel conversion:**  
