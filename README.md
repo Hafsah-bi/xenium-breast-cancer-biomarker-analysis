@@ -387,12 +387,7 @@ Per ring:
          ↓
 Fig 2F: raw_density    = MMP11_count / ring_area_µm²
 
-![MMP11 Raw Density](Output/fig2F_MMP11_raw_density.jpeg)
-
 Fig 2G: norm_density   = MMP11_count / geomean(HK_counts) / ring_area_µm²
-
-![MMP11 Normalized Density](Output/fig2G_MMP11_normalized_density.jpeg)
-
 ```
 
 **Pixel conversion:**  
@@ -401,6 +396,10 @@ Xenium pixel size = 0.2125 µm/px → 4.706 px/µm → 30 µm ring = 141.2 px ou
 **Statistical test:** Mann-Whitney U — MMP11+ vs MMP11− rings.
 
 **Outputs:** `fig2F_MMP11_raw_density.png`, `fig2G_MMP11_normalized_density.png`
+
+![MMP11 Raw Density](Output/fig2F_MMP11_raw_density.jpeg)
+
+![MMP11 Normalized Density](Output/fig2G_MMP11_normalized_density.jpeg)
 
 ---
 
